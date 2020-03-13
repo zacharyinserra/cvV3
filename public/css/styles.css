@@ -1,0 +1,140 @@
+.jumbotron {
+  text-align: center;
+}
+
+.container {
+  width: 60%;
+  text-align: center;
+  position: relative;
+  margin: 128px auto;
+}
+
+.main {
+  width: 80%;
+}
+
+h1 {
+  margin-bottom: 64px;
+}
+
+/* Profile */
+.profile, .education, .work, .certification, .skills-list {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.about-me {
+  width: 38%;
+  text-align: left;
+}
+
+.headshot {
+  width: 20%;
+  margin: 0px 16px;
+}
+
+.details {
+  width: 38%;
+  text-align: left;
+}
+
+.place {
+  width: 35%;
+  text-align: left;
+}
+
+/* Education */
+.description-education {
+  width: 64%;
+  text-align: left;
+  margin-top: 0px;
+}
+
+.seahawk {
+  height: 100px;
+  width: 100px;
+}
+
+/* Career */
+.description-work {
+  width: 64%;
+  text-align: left;
+}
+
+/* Certifications */
+.certification {
+  width: 45%;
+  text-align: left;
+}
+
+.description-certification {
+  width: 54%;
+  text-align: left;
+  padding-left: 32px;
+}
+
+.certification-images img {
+  width: 125px;
+  height: 125px;
+  margin-right: 16px;
+}
+
+/* Skills */
+
+.skills-container {
+    width: 80%;
+    text-align: center;
+    position: relative;
+    margin: 128px auto;
+}
+
+.skills-left {
+  width: 33%;
+}
+
+.skills-middle {
+  width: 33%;
+}
+
+.skills-right {
+  width: 33%;
+}
+
+.skills-list {
+  text-align: left;
+}
+
+.skills {
+  font-size: 20px;
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  margin-top: 8px;
+}
+
+.vb {width: 90%; background-color: #4CAF50;}
+.sql {width: 75%; background-color: #4CAF50;}
+.js {width: 50%; background-color: #4CAF50;}
+.css {width: 40%; background-color: #4CAF50;}
+.html {width: 60%; background-color: #4CAF50;}
+.python {width: 65%; background-color: #4CAF50;}
+.java {width: 75%; background-color: #4CAF50;}
+.vs {width: 90%; background-color: #4CAF50;}
+.ssms {width: 85%; background-color: #4CAF50;}
+.git {width: 90%; background-color: #4CAF50;}
+.jira {width: 90%; background-color: #4CAF50;}
+.pbi {width: 65%; background-color: #4CAF50;}
+.ssrs {width: 60%; background-color: #4CAF50;}
+.cr {width: 60%; background-color: #4CAF50;}
+.ssis {width: 75%; background-color: #4CAF50;}
+.ssas {width: 70%; background-color: #4CAF50;}
+.oop {width: 90%; background-color: #4CAF50;}
+.mvvm {width: 40%; background-color: #4CAF50;}
+.kb {width: 95%; background-color: #4CAF50;}
+.agile {width: 70%; background-color: #4CAF50;}
+
+/* Footer */
+.footer {
+  text-align: center;
+}

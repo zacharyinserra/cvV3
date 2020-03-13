@@ -1,91 +1,164 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
 
 <head>
-  <meta charset="utf-8">
-  <title>zacharyinserra</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="images/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto+Mono|Ubuntu+Mono|VT323&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-  <div class="top-container">
-    <img class="milky-way" src="images/milky-way.png" alt="milky-way-img">
-    <h1>I'm Zac</h1>
-    <p class="opener"><b>a software developer.</b></p>
-    <img class="ufo" src="images/ufo.png" alt="ufo-img">
-    <img src="images/space.png" alt="space-img">
+  <div class="jumbotron">
+    <h1>Zachary Inserra <span class="badge badge-dark">Software Developer</span></h1>
   </div>
-  <hr>
 
-  <div class="middle-container">
-    <div class="profile">
-      <img class="pic-of-me" src="images/me.jpg" alt="very nice picture of me">
-      <h2>Hello.</h2>
-      <p class="blurb">XXXXXXXX</p>
-    </div>
-    <hr>
-    <div class="education">
-      <img class="uncw" src="images/seahawks.jpeg" alt="">
-      <h2>Education.</h2>
-      <h3><a href="https://uncw.edu/">University of North Carolina Wilmington</a></h3>
-      <h3>B.S in Computer Science</h3>
-    </div>
-    <hr>
+  <!-- Profile -->
 
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="comp" src="images/comp.png" alt="">
-        <h3>Design and Development</h3>
-        <p>XXXXXXXX</p>
-        <h3>Programming Languages</h3>
-        <p>Visual Basic, C#, SQL, Java, Python, HTML, CSS, JavaScript</p>
-        <h3>Software</h3>
-        <p>.NET Framework, Unity 3D, SQL Server Management Studio, Visual Studio</p>
-        <h3>Business Intelligence</h3>
-        <p>Power BI, Crystal Reports, SQL Server Reporting Services</p>
+  <div class="container about-container">
+    <h1>Profile</h1>
+    <hr>
+    <div class="profile about-me">
+      <h2>About Me</h2>
+      <h5>I am a junior software developer with a passion for learning and expanding my knowledge and skill set.</h5>
+      <h5>I have strong programming fundamentals, an affinity for organization, and am detail-oriented.</h5>
+      <h5>I love team based work and learning from others, especially those with many years of experience.</h5>
+    </div>
+    <div class="profile headshot">
+      <img src="images/me.jpg" alt="">
+    </div>
+    <div class="profile details">
+      <h2>Details</h2>
+      <h3>Name: Zachary Inserra</h3>
+      <h3>Age: 23</h3>
+      <h3>Location: Charlotte, NC</h3>
+    </div>
+  </div>
+
+  <hr class="main">
+
+  <!-- Education -->
+
+  <div class="container education-container">
+    <h1>Education</h1>
+    <hr>
+    <div class="education place">
+      <h2>University of North Carolina Wilmington</h2>
+      <h4>August 2014 - December 2018</h4>
+      <a href="https://uncw.edu/" target="_blank"><img class="seahawk" src="images/seahawks.jpeg" alt=""></a>
+    </div>
+    <div class="education description-education">
+      <h5>I went into college as a Chemistry Major and a Mathematics Minor. In my junior year, I realized my passion for technology, so, I decided to switch to Computer Science. I learned the basics, like Object Oriented Programming and Data
+        Structures, in Python and Java.</h5>
+      <h5>Over the next few years I moved on to more complicated learning, including artificial intelligence, database concepts, algorithm design and implementation, and video-game design. I also expanded my skill set by learning Javascript, CSS,
+        HTML, and SQL through web development and source control through GitHub.</h5>
+      <h5>I graduated in December of 2018 with a Bachelor's of Science in Computer Science, a Minor in Mathematics, and a Concetration in Chemistry.</h5>
+    </div>
+  </div>
+
+  <hr class="main">
+
+  <!-- Career -->
+
+  <div class="container work-container">
+    <h1>Career Development</h1>
+    <hr>
+    <div class="work place">
+      <h2>ChristianSteven Software</h2>
+      <h3>Junior Software Developer</h3>
+      <h4>Charlotte, NC</h4>
+      <h4>June 2019 - Present</h4>
+      <a href="https://go.christiansteven.com/" target="_blank"><img src="images/css.png" alt=""></a>
+    </div>
+    <div class="work description-work">
+      <h5>This job has provided me with some of the most valuable experience I have ever had. I was able to take my knowledge of Object Oriented Programming and quickly learn the ins-and-outs of using Visual Basic and C# on the .NET Framework.</h5>
+      <h5>I got familiar with Visual Studio for programming and Sourcetree (Atlassian's Git GUI) and GitHub Desktop for version control.</h5>
+      <h5>Main duties include designing and implementing new features (VB/C#, SQL) in enterprise level reporting software for SSRS, Power BI, and Crystal Reports.</h5>
+      <h5>We use Kanban as our development process, however, we would do work in sprints leading up to new version releases, much like in Agile. We used Jira to visulaize our workflow and keep track the work the needs to be done, work that is in
+        progress, and work that is done.</h5>
+      <h5>Here I was introduced to Model-View-ViewModel design structure. I was in charge of designing and building a tool to help in development, technical support, and quality assurance.</h5>
+    </div>
+  </div>
+
+  <hr class="main">
+
+  <!-- Certifications -->
+
+  <div class="container certifications-container">
+    <h1>Certifications</h1>
+    <hr>
+    <div class="certification cert">
+      <h2>Microsoft Certified Solutions Associate:</h2>
+      <h3>SQL 2016 Business Intelligence Development</h3>
+      <h4>Achieved March 2020</h4>
+      <div class="certification-images">
+        <a href="https://www.microsoft.com/en-us/learning/mcsa-sql2016-business-intelligence-certification.aspx" target="_blank"><img src="images/msca.png" alt=""></a>
+        <a href="https://www.microsoft.com/en-us/learning/exam-70-767.aspx" target="_blank"><img src="images/767.png" alt=""></a>
+        <a href="https://www.microsoft.com/en-us/learning/exam-70-768.aspx" target="_blank"><img src="images/768.png" alt=""></a>
       </div>
+    </div>
+    <div class="certification description-certification">
+      <h3>Exam 767: Implementing a Data Warehouse</h3>
+      <h5>Design, implement, and maintain a data warehouse.</h5>
+      <h5>Extract, transform, and load data.</h5>
+      <h5>Build data quality solutions.</h5>
       <hr>
-      <h2>Work Experience.</h2>
-      <div class="work-experience">
-        <img class="cog" src="images/cog.png" alt="cog-img">
-        <table class="work">
-          <thead>
-            <tr>
-              <th>Dates</th>
-              <th>Work</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>2019-Present</td>
-              <td>Junior Software Developer at ChristianSteven Software</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
+      <h3>Exam 768: Developing SQL Data Models</h3>
+      <h5>Design a multidimensional business intelligence semantic model.</h5>
+      <h5>Design a tabular business intelligence semantic model.</h5>
+      <h5>Develop queries using Multidimensional Expressions (MDX) and Data Analysis Expressions (DAX).</h5>
+      <h5>Configure and maintain SQL Server Analysis Services.</h5>
     </div>
+  </div>
+
+  <hr class="main">
+
+  <!-- Skills -->
+
+  <div class="skills-container">
+    <h1>Skills</h1>
     <hr>
-
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <p class="contact-message">I would love to chat about anything!</p>
-      <a class="butn" href="mailto:zacharyinserra@gmail.com">CONTACT ME</a>
+    <div class="skills-list skills-left">
+      <h2>Languages</h2>
+      <div class="skills vb">Visual Basic/C#</div>
+      <div class="skills sql">SQL</div>
+      <div class="skills js">Javascript</div>
+      <div class="skills css">CSS</div>
+      <div class="skills html">HTML</div>
+      <div class="skills python">Python</div>
+      <div class="skills java">Java</div>
     </div>
-
-    <hr>
-
-    <div class="bottom-container">
-      <a download href="E:\ResumeZI.docx">Resume</a>
-      <a target="_blank" class="footer-link" href="https://www.linkedin.com/in/zachary-inserra-97a6a0164/">LinkedIn</a>
-      <a target="_blank" class="footer-link" href="https://github.com/zacharyinserra">GitHub</a>
-      <p class="name">© 2019 Zachary Inserra</p>
+    <div class="skills-list skills-middle">
+      <h2>Software/Tools</h2>
+      <div class="skills vs">Visual Studio</div>
+      <div class="skills ssms">SQL Server Management Studio</div>
+      <div class="skills git">Git</div>
+      <div class="skills jira">Jira</div>
+      <div class="skills pbi">Power BI</div>
+      <div class="skills ssrs">SQL Server Reporting Services</div>
+      <div class="skills cr">Crystal Reports</div>
+      <div class="skills ssis">SQL Server Integration Services</div>
+      <div class="skills ssas">SQL Server Analysis Services</div>
     </div>
+    <div class="skills-list skills-right">
+      <h2>Concepts</h2>
+      <div class="skills oop">Object Oriented Programming</div>
+      <div class="skills mvvm">MVVM</div>
+      <div class="skills kb">Kanban</div>
+      <div class="skills agile">Agile</div>
+    </div>
+  </div>
 
+  <hr class="main">
+
+  <div class="footer">
+    <p>
+      Zachary Inserra
+    </p>
+  </div>
 
 </body>
 
