@@ -1,5 +1,21 @@
 .jumbotron {
   text-align: center;
+  background-image: url("spaceship.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0px;
+  height: 100vh;
+}
+
+.title {
+  color: white;
+}
+
+.title2 {
+  color: white;
+  opacity: 50%;
 }
 
 .container {
@@ -80,12 +96,11 @@ h1 {
 }
 
 /* Skills */
-
 .skills-container {
-    width: 80%;
-    text-align: center;
-    position: relative;
-    margin: 128px auto;
+  width: 80%;
+  text-align: center;
+  position: relative;
+  margin: 128px auto;
 }
 
 .skills-left {
@@ -113,28 +128,115 @@ h1 {
   margin-top: 8px;
 }
 
-.vb {width: 90%; background-color: #4CAF50;}
-.sql {width: 75%; background-color: #4CAF50;}
-.js {width: 50%; background-color: #4CAF50;}
-.node {width: 70%; background-color: #4CAF50;}
-.express {width: 60%; background-color: #4CAF50;}
-.css {width: 40%; background-color: #4CAF50;}
-.html {width: 60%; background-color: #4CAF50;}
-.python {width: 65%; background-color: #4CAF50;}
-.java {width: 75%; background-color: #4CAF50;}
-.vs {width: 90%; background-color: #4CAF50;}
-.ssms {width: 85%; background-color: #4CAF50;}
-.git {width: 90%; background-color: #4CAF50;}
-.jira {width: 90%; background-color: #4CAF50;}
-.pbi {width: 65%; background-color: #4CAF50;}
-.ssrs {width: 60%; background-color: #4CAF50;}
-.cr {width: 60%; background-color: #4CAF50;}
-.ssis {width: 75%; background-color: #4CAF50;}
-.ssas {width: 70%; background-color: #4CAF50;}
-.oop {width: 90%; background-color: #4CAF50;}
-.mvvm {width: 40%; background-color: #4CAF50;}
-.kb {width: 95%; background-color: #4CAF50;}
-.agile {width: 70%; background-color: #4CAF50;}
+.vb {
+  width: 90%;
+  background-color: #4CAF50;
+}
+
+.sql {
+  width: 75%;
+  background-color: #4CAF50;
+}
+
+.js {
+  width: 50%;
+  background-color: #4CAF50;
+}
+
+.node {
+  width: 70%;
+  background-color: #4CAF50;
+}
+
+.express {
+  width: 60%;
+  background-color: #4CAF50;
+}
+
+.css {
+  width: 40%;
+  background-color: #4CAF50;
+}
+
+.html {
+  width: 60%;
+  background-color: #4CAF50;
+}
+
+.python {
+  width: 65%;
+  background-color: #4CAF50;
+}
+
+.java {
+  width: 75%;
+  background-color: #4CAF50;
+}
+
+.vs {
+  width: 90%;
+  background-color: #4CAF50;
+}
+
+.ssms {
+  width: 85%;
+  background-color: #4CAF50;
+}
+
+.git {
+  width: 90%;
+  background-color: #4CAF50;
+}
+
+.jira {
+  width: 90%;
+  background-color: #4CAF50;
+}
+
+.pbi {
+  width: 65%;
+  background-color: #4CAF50;
+}
+
+.ssrs {
+  width: 60%;
+  background-color: #4CAF50;
+}
+
+.cr {
+  width: 60%;
+  background-color: #4CAF50;
+}
+
+.ssis {
+  width: 75%;
+  background-color: #4CAF50;
+}
+
+.ssas {
+  width: 70%;
+  background-color: #4CAF50;
+}
+
+.oop {
+  width: 90%;
+  background-color: #4CAF50;
+}
+
+.mvvm {
+  width: 40%;
+  background-color: #4CAF50;
+}
+
+.kb {
+  width: 95%;
+  background-color: #4CAF50;
+}
+
+.agile {
+  width: 70%;
+  background-color: #4CAF50;
+}
 
 /* Footer */
 .footer {
