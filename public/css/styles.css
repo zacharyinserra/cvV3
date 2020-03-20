@@ -7,6 +7,7 @@
   background-repeat: no-repeat;
   border-radius: 0px;
   height: 100vh;
+  margin-bottom:0px
 }
 
 .title {
@@ -18,22 +19,77 @@
   opacity: 50%;
 }
 
+.navbar {
+    border: 0px;
+    background-color: #222222;
+    position: fixed;
+    top: 60px;
+    right: 5%;
+    width: 110px;
+    z-index: 999;
+}
+
+.nav-butt {
+text-align:center;
+padding-right: 8px;
+padding-left: 4px;
+}
+
 .container {
   width: 60%;
   text-align: center;
   position: relative;
-  margin: 128px auto;
-}
-
-.main {
-  width: 80%;
 }
 
 h1 {
+  color: #312e49;
   margin-bottom: 64px;
 }
 
+h2 {
+  color: #312e49;
+}
+
+h3 {
+  color :#312e49;
+}
+
+h4, h5, h6 {
+  color: #4c343a;
+}
+
 /* Profile */
+
+.first {
+  background-color: #e9d2bd;
+  padding-bottom: 128px;
+  padding-top:64px;
+}
+
+.second {
+  background-color: #f2ede5;
+  padding-bottom: 128px;
+  padding-top:64px;
+}
+
+.third {
+  background-color: #e9d2bd;
+  padding-bottom: 128px;
+  padding-top:64px;
+}
+
+.fourth {
+  background-color: #f2ede5;
+  padding-bottom: 128px;
+  padding-top:64px;
+}
+
+.fifth {
+  background-color: #e9d2bd;
+  padding-bottom: 128px;
+  padding-top:64px;
+}
+
 .profile, .education, .work, .certification, .skills-list {
   display: inline-block;
   vertical-align: top;
@@ -46,7 +102,14 @@ h1 {
 
 .headshot {
   width: 20%;
-  margin: 0px 16px;
+  padding-top:16px;
+  margin: 16px;
+  border-radius: 50%;
+  background-color: #f2ede5;
+}
+
+.head {
+  border-radius: 50%;
 }
 
 .details {
@@ -69,6 +132,7 @@ h1 {
 .seahawk {
   height: 100px;
   width: 100px;
+  border-radius: 25%
 }
 
 /* Career */
@@ -126,116 +190,97 @@ h1 {
   padding-bottom: 5px;
   padding-left: 8px;
   margin-top: 8px;
+  background-color: #312e49;
+  color: #92b7b4;
 }
+
 
 .vb {
   width: 90%;
-  background-color: #4CAF50;
 }
 
 .sql {
   width: 75%;
-  background-color: #4CAF50;
 }
 
 .js {
   width: 50%;
-  background-color: #4CAF50;
 }
 
 .node {
   width: 70%;
-  background-color: #4CAF50;
 }
 
 .express {
   width: 60%;
-  background-color: #4CAF50;
 }
 
 .css {
   width: 40%;
-  background-color: #4CAF50;
 }
 
 .html {
   width: 60%;
-  background-color: #4CAF50;
 }
 
 .python {
   width: 65%;
-  background-color: #4CAF50;
 }
 
 .java {
   width: 75%;
-  background-color: #4CAF50;
 }
 
 .vs {
   width: 90%;
-  background-color: #4CAF50;
 }
 
 .ssms {
   width: 85%;
-  background-color: #4CAF50;
 }
 
 .git {
   width: 90%;
-  background-color: #4CAF50;
 }
 
 .jira {
   width: 90%;
-  background-color: #4CAF50;
 }
 
 .pbi {
   width: 65%;
-  background-color: #4CAF50;
 }
 
 .ssrs {
   width: 60%;
-  background-color: #4CAF50;
 }
 
 .cr {
   width: 60%;
-  background-color: #4CAF50;
 }
 
 .ssis {
   width: 75%;
-  background-color: #4CAF50;
 }
 
 .ssas {
   width: 70%;
-  background-color: #4CAF50;
 }
 
 .oop {
   width: 90%;
-  background-color: #4CAF50;
 }
 
 .mvvm {
   width: 40%;
-  background-color: #4CAF50;
 }
 
 .kb {
   width: 95%;
-  background-color: #4CAF50;
 }
 
 .agile {
   width: 70%;
-  background-color: #4CAF50;
 }
 
 /* Footer */
