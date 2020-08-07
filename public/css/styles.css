@@ -7,7 +7,7 @@
   background-repeat: no-repeat;
   border-radius: 0px;
   height: 100vh;
-  margin-bottom:0px
+  margin-bottom: 0px
 }
 
 .title {
@@ -20,19 +20,19 @@
 }
 
 .navbar {
-    border: 0px;
-    background-color: #222222;
-    position: fixed;
-    top: 60px;
-    right: 5%;
-    width: 110px;
-    z-index: 999;
+  border: 0px;
+  background-color: #a1a1a1;
+  position: fixed;
+  top: 60px;
+  right: 5%;
+  width: 110px;
+  z-index: 999;
 }
 
 .nav-butt {
-text-align:center;
-padding-right: 8px;
-padding-left: 4px;
+  text-align: right;
+  padding-right: 8px;
+  padding-left: 4px;
 }
 
 .container {
@@ -51,10 +51,12 @@ h2 {
 }
 
 h3 {
-  color :#312e49;
+  color: #312e49;
 }
 
-h4, h5, h6 {
+h4,
+h5,
+h6 {
   color: #4c343a;
 }
 
@@ -63,34 +65,50 @@ h4, h5, h6 {
 .first {
   background-color: #e9d2bd;
   padding-bottom: 128px;
-  padding-top:64px;
+  padding-top: 64px;
 }
 
 .second {
   background-color: #f2ede5;
   padding-bottom: 128px;
-  padding-top:64px;
+  padding-top: 64px;
 }
 
 .third {
   background-color: #e9d2bd;
   padding-bottom: 128px;
-  padding-top:64px;
+  padding-top: 64px;
 }
 
 .fourth {
   background-color: #f2ede5;
   padding-bottom: 128px;
-  padding-top:64px;
+  padding-top: 64px;
 }
 
 .fifth {
   background-color: #e9d2bd;
   padding-bottom: 128px;
-  padding-top:64px;
+  padding-top: 64px;
 }
 
-.profile, .education, .work, .certification, .skills-list {
+.sixth {
+  background-color: #f2ede5;
+  padding-bottom: 128px;
+  padding-top: 64px;
+}
+
+.seventh {
+  background-color: #e9d2bd;
+  padding-bottom: 128px;
+  padding-top: 64px;
+}
+
+.profile,
+.education,
+.work,
+.certification,
+.skills-list {
   display: inline-block;
   vertical-align: top;
 }
@@ -102,7 +120,7 @@ h4, h5, h6 {
 
 .headshot {
   width: 20%;
-  padding-top:16px;
+  padding-top: 16px;
   margin: 16px;
   border-radius: 50%;
   background-color: #f2ede5;
@@ -194,6 +212,128 @@ h4, h5, h6 {
   color: #92b7b4;
 }
 
+/* Projects */
+
+.bbt {
+  width: 50%;
+  margin: auto;
+  padding: 32px 0;
+}
+
+.project-container {
+  width: 80%;
+  text-align: center;
+  position: relative;
+  margin: 128px auto;
+}
+
+.projectPic {
+  display: inline-flex;
+  width: 100%;
+}
+
+.pic {
+  padding: 16px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.pic p {
+  padding-top: 8px;
+}
+
+.gitpic {
+  height: 32px;
+  width: 32px;
+}
+
+.gitsite-left {
+  padding-left: 32px;
+}
+
+.gitsite-right {
+  padding-right: 32px;
+}
+
+.sitepic {
+  border: #312e49;
+  border-style: solid;
+  height: 225px;
+  width: 400px;
+}
+
+.javapython {
+  width: 100%;
+  display: inline-flex;
+  padding-right: 16px;
+  padding-bottom: 32px;
+}
+
+.titledate {
+  display: inline-flex;
+}
+
+.title3 {
+  width: 300px;
+  text-align: left;
+  padding-right: 8px;
+}
+
+.date {
+  width: 225px;
+}
+
+.content {
+  text-align: left;
+  padding-left: 32px;
+}
+
+/* Contact Info */
+.lbl {
+  text-align: left;
+}
+
+.contact-sites {
+  display: inline-flex;
+}
+
+.linker {
+  padding: 40px;
+}
+.send {
+  float: right;
+}
+
+.footer {
+  padding: 16px;
+}
+
+a {
+  color: #312e49
+}
+
+/* Globally */
+
+/* Each state */
+
+a:visited {
+  text-decoration: none;
+  color: #312e49;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+  color: black
+}
 
 .vb {
   width: 90%;
@@ -204,7 +344,7 @@ h4, h5, h6 {
 }
 
 .js {
-  width: 50%;
+  width: 70%;
 }
 
 .node {
@@ -276,7 +416,7 @@ h4, h5, h6 {
 }
 
 .kb {
-  width: 95%;
+  width: 85%;
 }
 
 .agile {
