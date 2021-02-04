@@ -1,6 +1,6 @@
 .jumbotron {
   text-align: center;
-  background-image: url("spaceship.jpg");
+  background-image: url("../images/spaceship.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -36,7 +36,6 @@
 }
 
 .container {
-  width: 60%;
   text-align: center;
   position: relative;
 }
@@ -111,6 +110,12 @@ h6 {
 .skills-list {
   display: inline-block;
   vertical-align: top;
+}
+
+/* About me */
+
+.about-container {
+  min-width: 1200px;
 }
 
 .about-me {

@@ -1,4 +1,4 @@
-//nodemon app.js --signal SIGKILL -e js,htm
+//nodemon app.js --signal SIGKILL -e js,htm,css
 
 const express = require("express");
 const bodyParser = require("body-parser");
@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public"));
 
 app.get("/", function (req, res) {
-  res.sendFile(__dirname + "/index.html");
+  res.sendFile(__dirname + "/cv.html");
 });
 
 app.listen(process.env.PORT || 3000, function () {
