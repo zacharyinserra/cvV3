@@ -68,7 +68,7 @@ body {
     height: 400px;
     margin-bottom: 0px;
     position: relative;
-    min-width: 1200px;
+    min-width: 1400px;
 }
 
 .pic-of-me {
@@ -141,7 +141,14 @@ body {
     width: 100%;
     background-color: #93A2BF;
     color: #222C40;
+}
+
+.career-development-inner {
     display: flex;
+    width: 100%;
+    min-width: 1500px;
+    max-width: 2000px;
+    margin: auto;
 }
 
 .career-header {
@@ -203,9 +210,171 @@ body {
 /* CERTIFICATIONS */
 
 .certifications {
-    height: 650px;
+    height: 750px;
     width: 100%;
     background-color: #6F7BBF;
     color: #222C40;
+}
+
+.certifications-inner {
     display: flex;
+    width: 100%;
+    min-width: 1500px;
+    max-width: 2000px;
+    margin: auto;
+}
+
+.certifications-header {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.certifications-header h1 {
+    font-size: 40px;
+    width: 300px;
+    position: absolute;
+    left: 300px;
+    top: 150px;
+    font-family: 'Montserrat', sans-serif;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+.certifications-content {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.certifications-content-inner {
+    width: 600px;
+    position: absolute;
+    right: 250px;
+    top: 150px;
+}
+
+.certifications-images img {
+    width: 125px;
+    height: 125px;
+    margin-right: 16px;
+}
+
+.certifications-content-inner h5 {
+    font-size: 30px;
+    padding-bottom: 5px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+.certifications-content-inner h6 {
+    font-size: 26px;
+    padding-bottom: 10px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+.certifications-content-inner p {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+.certifications-content-inner a {
+    text-decoration: none;
+    color: #222C40;
+}
+
+.certification-description p {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+/* EDUCATION */
+
+.education {
+    height: 600px;
+    width: 100%;
+    background-color: #93A2BF;
+    color: #222C40;
+}
+
+.education-inner {
+    display: flex;
+    width: 100%;
+    min-width: 1500px;
+    max-width: 2000px;
+    margin: auto;
+}
+
+.education-header {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.education-header h1 {
+    font-size: 40px;
+    width: 300px;
+    position: absolute;
+    left: 300px;
+    top: 150px;
+    font-family: 'Montserrat', sans-serif;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+.education-content {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.education-content-inner {
+    width: 600px;
+    position: absolute;
+    right: 250px;
+    top: 150px;
+}
+
+.education-place h5 {
+    font-size: 30px;
+    padding-bottom: 5px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+.education-place h6 {
+    font-size: 26px;
+    padding-bottom: 10px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+.education-description p {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+    background-color: #0D0D0D;
+    color: white;
+    height: 100px;
+}
+
+.footer h5 {
+    padding-top: 25px;
+    margin-block-end: 0;
+    margin-block-start: 0;
 }
