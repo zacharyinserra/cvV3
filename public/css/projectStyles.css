@@ -11,7 +11,29 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    position: relative;
 }
+
+.top-container {
+    position: absolute;
+    width: 100%;
+    height: 1080px;
+    background-image: url("../images/top.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* body::before {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+    transform: rotate(90deg);
+    background-size: cover;
+} */
 
 .nav-bar {
     height: 50px;
@@ -55,6 +77,84 @@ body {
 .nav-links a {
     text-decoration: none;
     color: white;
+}
+
+/* PROJECTS */
+
+.bbt {
+    width: 600px;
+    margin: auto;
+    padding: 32px 0;
+    font-size: 30px;
+}
+
+.project-container {
+    width: 1200px;
+    text-align: center;
+    position: relative;
+    margin: 128px auto;
+    font-size: 20px;
+}
+
+.projectPic {
+    display: inline-flex;
+    width: 100%;
+}
+
+.pic {
+    padding: 16px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.pic p {
+    padding-top: 8px;
+}
+
+.gitpic {
+    height: 32px;
+    width: 32px;
+}
+
+.gitsite-left {
+    padding-left: 32px;
+}
+
+.gitsite-right {
+    padding-right: 32px;
+}
+
+.sitepic {
+    border: #312e49;
+    border-style: solid;
+    height: 225px;
+    width: 400px;
+}
+
+.javapython {
+    width: 100%;
+    display: inline-flex;
+    padding-right: 16px;
+    padding-bottom: 32px;
+}
+
+.titledate {
+    display: inline-flex;
+}
+
+.title3 {
+    width: 300px;
+    text-align: left;
+    padding-right: 8px;
+}
+
+.date {
+    width: 225px;
+}
+
+.content {
+    text-align: left;
+    padding-left: 32px;
 }
 
 /* FOOTER */
