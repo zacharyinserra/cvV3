@@ -127,8 +127,8 @@ body {
 .sitepic {
     border: #312e49;
     border-style: solid;
-    height: 225px;
-    width: 400px;
+    height: 150px;
+    width: 275px;
 }
 
 .javapython {
@@ -136,6 +136,11 @@ body {
     display: inline-flex;
     padding-right: 16px;
     padding-bottom: 32px;
+}
+
+.javapython a {
+    text-decoration: none;
+    color: #6F7BBF;
 }
 
 .titledate {

@@ -123,6 +123,10 @@ body {
     height: 25px;
 }
 
+.links i {
+    color: white;
+}
+
 .about-me {
     padding-top: 40px;
     color: #0D0D0D;
