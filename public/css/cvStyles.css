@@ -216,8 +216,9 @@ body {
 .certifications {
     height: 750px;
     width: 100%;
-    background-color: #6F7BBF;
-    color: #222C40;
+    /* background-color: #6F7BBF; */
+    /* color: #222C40; */
+    color: #6F7BBF;
 }
 
 .certifications-inner {
